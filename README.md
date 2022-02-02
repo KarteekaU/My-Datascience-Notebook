@@ -1,7 +1,7 @@
 # Security notebooks- Python Data Science lab
 This repo has all the labs and class work from MSBX 5500
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KarteekaU/security-notebooks/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KarteekaU/My-Datascience-Notebook/HEAD)
 
 The built image is [hosted on Docker-Hub](https://hub.docker.com/layers/kaup1074/my-datascience-notebook/latest/images/sha256-48f8e3077ff6573b3e4bd42849da4a70bbe8cae555536febb10f80c2932ad486?context=repo).
 
