@@ -12,9 +12,6 @@ Build:
 ```bash
 docker build --rm -t kaup1074/my-datascience-notebook
 # Built an image on dockerhub in the my data science notebook repo
-
-docker tag jupyter/my-datascience-notebook kaup1074/my-datascience-notebook
-# Tagged as above
 ```
 
 Run:
