@@ -1,5 +1,5 @@
-# Security notebooks- Python Data Science lab
-This repo has all the labs and class work from MSBX 5500
+# Python Data Science Notebook
+This repo has all the requirements fulfilled for the python data science lab assignment
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KarteekaU/My-Datascience-Notebook/HEAD)
 
@@ -20,12 +20,10 @@ docker tag jupyter/my-datascience-notebook kaup1074/my-datascience-notebook
 Run:
 
 ```bash
-docker run fill-in-the-rest
+docker run --rm -it -p 8888:8888 kaup1074/my-datascience-notebook
 # - Should publish port 8888
 # - Should mount the local directory as a volume in the
 #   container's home directory
-# - Should `--rm` container when done
-# - Should use `-it` mode
 ```
 
 ### With `docker-compose`
