@@ -18,9 +18,8 @@ Run:
 
 ```bash
 docker run --rm -it -p 8888:8888 kaup1074/my-datascience-notebook
-# - Should publish port 8888
-# - Should mount the local directory as a volume in the
-#   container's home directory
+# Publishes port 8888
+# Mounts the local directory as a volume in the container's home directory
 ```
 
 ### With `docker-compose`
