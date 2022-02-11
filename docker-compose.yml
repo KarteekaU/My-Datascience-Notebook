@@ -7,4 +7,4 @@ services:
     ports:
       - "10000:8888"
     volumes:
-      - .:/homejovyan/work
+      - .:/home/jovyan/work
