@@ -5,6 +5,6 @@ services:
     build: .
     image: kaup1074/my-datascience-notebook
     ports:
-      - "8888:8888"
+      - "8888:8888" 
     volumes:
       - .:/home/jovyan/work
