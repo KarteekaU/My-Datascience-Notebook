@@ -17,7 +17,7 @@ docker build --rm -t kaup1074/my-datascience-notebook
 Run:
 
 ```bash
-docker run --rm -it -p 8888:8888 kaup1074/my-datascience-notebook
+docker run --rm -it -p 8888:8888 -v "/Users/kay4/Documents/GitHub/My-Datascience-Notebook:/home/jovyan/work" kaup1074/my-datascience-notebook
 # Publishes port 8888
 # Mounts the local directory as a volume in the container's home directory
 ```
